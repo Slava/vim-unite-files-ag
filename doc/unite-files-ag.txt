@@ -1,0 +1,28 @@
+*unite-files-ag*	A Unite plugin for searching files with ag.
+
+Author: slava (Slava Kim)
+License: MIT
+
+==============================================================================
+INTRODUCTION				*unite-files-ag*
+
+*unite-files-ag* is a Unite plugin for searching files with ag.
+
+Requirement:
+- unite.vim
+
+==============================================================================
+CUSTOMIZING				*unite-files-ag-customizing*
+
+g:unite_ag_command			*g:unite_ag_command*
+	Specifies an alternative command to use for subshelling to ag.
+
+        The default value is 'ag'.
+
+g:unite_ag_flags			*g:unite_ag_flags*
+	Specifies an string of flags to use with ag.
+
+        The default value is '-l -G'.
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
